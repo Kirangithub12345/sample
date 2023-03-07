@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <nav class = "navbar">
+        <ul>
+            <li>
+                <button class = "btn2">
+                <div></div>
+                <div></div>
+                <div></div>
+                </button>
+            </li>
+            <li><b>SAVE YT</b></li>
+            
+        </ul>
+    </nav>
+</header>   
+<style>
+    head {
+        background:#52595D;
+    }
+   .title {
+       color: black;
+   }
+   #button {
+   
+       background: linear-gradient(to bottom, #8467d7, #e3319d);
+       height:40px;
+       width:150px;
+       font-size:2.0em;
+       box-shadow:5px 5px 5px #666;
+       value:bold;
+       border:none;
+       font-size:30px;
+       font-type:bold;
+       border-collapse:collapse;
+       
+   }
+   #button:active{
+       background:red;
+       border-color:red;
+   }
+   .img {
+   
+       width:350px;
+       height:200px;
+       border-radius:10px;
+       
+       
+   }
+   body {
+       background:#CCCCFF;
+   }
+   #button {
+   
+   
+      border-radius : 10px;
+      
+   }
+   .navbar {
+        border-radius : 10px;
+        background:#9E7EFF;
+    }
+    .navbar li {
+        float:left;
+        list-style:none;
+        margin: 3px;
+    }
+    .navbar ul {
+        overflow: auto;
+    }
+    .navbar li b {
+        padding : 3px ;
+        text-decoration:none;
+        color: white;
+        font-size:40px;
+        
+    }
+    .search1 {
+        float:right;
+    }
+    .btn {
+        width:50px;
+        height:50px;
+        background:#E55451;
+        border-color:#E55451;
+    }
+    .navbar div {
+        height:5px;
+        background-color:black;
+        width:30px;
+        margin: 3px;
+    }
+    .btn2 {
+        padding-top:10px;
+    }
+   
+        
+</style>
+<!--  <h4 class = "title">{{title}}</h4> -->
+<img class = "img"src="{{thumbnail}}">
+<!-- <!--<br>
+<table>
+    <tr>
+        <th>
+        <form action ="{% url 'ytproject:video_layout' %}">
+    {% csrf_token %}
+        <button id = "button" type = "submit"><i class = "fa fa-video"></i> VIDEO</button>
+</form>
+        </th> -->
+<!--
+<h3>{{360p}}</h3>
+<br>
+<h3>{{720p}}</h3>
+<br>
+ -->
+       <!--   <th>
+        <form action="{% url 'ytproject:audio_layout' %}">
+    {% csrf_token %}
+        <button id = "button" type ="submit" ><i class= "fa fa-music"></i> AUDIO</button>
+        </form>
+        </th>
+    </tr>
+</table> -->
+<!-- <button class="btn" style = background-color:blue;color:white;>
+  <i class="fa fa-music"></i> Audio
+</button>
+<button class="btn" style = background-color:blue;color:white;>
+  <i class="fa fa-video"></i> video
+</button> --> -->
+</body>
+  
+</html>
+
