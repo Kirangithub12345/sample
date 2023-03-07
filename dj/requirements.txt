@@ -13,15 +13,15 @@ Django==4.1.6
 
 
 
-pytube==12.1.2
-pytz==2022.7.1
-requests==2.11.1
-requests-toolbelt==0.7.0
+
+
+
+
 
 six==1.16.0
 
-tqdm==4.64.1
 
-urllib3==1.26.14
+
+
 
 
